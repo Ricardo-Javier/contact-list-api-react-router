@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import { Context } from "../store/appContext";
 
-import "../../styles/demo.scss";
+// import "../../styles/demo.scss";
 
-export const Demo = () => {
+export const addEditContact = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
